@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100vw;
+}
+
+.header {
+    text-align: center;
+    padding-top: 140px;
+    width: 100vw;
+    height: 60vh;
+    color: white;
+    background-image: url(../img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.container {
+    width: 60vw;
+    margin: auto;
+    margin-top: -10vh;
+    text-align: center;
+}
+
+.sticker {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.post-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post {
+    max-width: 30%;
+}
+
+.footer {
+    margin-top: 40px;
+    background: #F7654A;
+    height: 20vh;
+    width: 100vw;
+}
+
+.footer-items {
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+ 
+
